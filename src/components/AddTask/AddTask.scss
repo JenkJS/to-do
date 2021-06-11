@@ -1,0 +1,31 @@
+.addTask {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    input {
+        margin: 5px;
+        width: 80%;
+        height: 25px;
+        border: 2px solid #949090;
+        border-radius: 5px;
+        background-color: whitesmoke;
+
+        &:focus {
+            background-color: white;
+        }
+    }
+
+    button {
+        background-color: rgb(54, 177, 6);
+        width: 100px;
+
+        &:hover {
+            background-color: rgb(54, 177, 6);
+        }
+    }
+
+
+}
